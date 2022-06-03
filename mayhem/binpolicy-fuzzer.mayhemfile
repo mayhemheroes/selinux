@@ -1,0 +1,4 @@
+project: PROJECT
+target: binpolicy-fuzzer
+cmds:
+- cmd: /out/binpolicy-fuzzer
