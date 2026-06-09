@@ -1,0 +1,5 @@
+project: selinux
+target: selabel_file_compiled-fuzzer
+cmds:
+  - cmd: /mayhem/selabel_file_compiled-fuzzer
+    libfuzzer: true

@@ -1,0 +1,5 @@
+project: selinux
+target: binpolicy-fuzzer
+cmds:
+  - cmd: /mayhem/binpolicy-fuzzer
+    libfuzzer: true

@@ -1,0 +1,5 @@
+project: selinux
+target: secilc-fuzzer
+cmds:
+  - cmd: /mayhem/secilc-fuzzer
+    libfuzzer: true

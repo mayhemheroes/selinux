@@ -1,0 +1,5 @@
+project: selinux
+target: checkpolicy-fuzzer
+cmds:
+  - cmd: /mayhem/checkpolicy-fuzzer
+    libfuzzer: true
